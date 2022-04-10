@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: OnRunLine
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"Flow
+      Output","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"Yarn.Unity.Bolt.BoltDialogueUI","key":"Bolt
+      Dialogue UI Ref","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.String","key":"Line","label":null,"summary":null,"hideLabel":false},{"_type":"System.String","key":"Tag","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":288.6444,"y":6.488889},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-314.0,"y":-52.0},"guid":"d9524320-a461-47a5-981e-7d9704433399","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"13"},{"defaultValues":{},"position":{"x":357.0,"y":-58.0},"guid":"885ba93e-1127-4db2-8ba1-f6decd1ab4e7","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"15"},{"argumentCount":2,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"RUN_LINE","$type":"System.String"}},"position":{"x":-38.0,"y":-61.0},"guid":"c518c191-5277-4252-9e48-7462e211f65a","$version":"A","$type":"Unity.VisualScripting.CustomEvent","$id":"17"},{"chainable":false,"member":{"name":"Substring","parameterTypes":["System.Int32"],"targetType":"System.String","targetTypeName":"System.String","$version":"A"},"defaultValues":{"target":{"$content":"","$type":"System.String"},"%startIndex":{"$content":5,"$type":"System.Int32"}},"position":{"x":144.0,"y":139.0},"guid":"51b40449-10cb-457a-a8ae-815100186120","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"19"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"Flow
+      Output","guid":"897c017b-350d-4f5f-9432-c37af1e068f8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Bolt
+      Dialogue UI Ref","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"3a756791-5307-4673-b0c9-b83fc67f0bd5","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"argument_0","destinationUnit":{"$ref":"15"},"destinationKey":"Line","guid":"850fac11-b119-4eab-9597-7781c7b76db6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"argument_1","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"3c15c4d5-ebd6-4486-95f5-dcf176df0c49","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"result","destinationUnit":{"$ref":"15"},"destinationKey":"Tag","guid":"70f637f9-5097-41e8-b2c8-63b35d92617e","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

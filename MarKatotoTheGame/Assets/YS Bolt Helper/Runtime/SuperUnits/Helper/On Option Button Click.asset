@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: On Option Button Click
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"Output","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":0,"$type":"System.Int32"},"_type":"System.Int32","key":"Button
+      Index","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":303.3334,"y":43.33326},"zoom":0.9,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":184.0,"y":-134.0},"guid":"48860406-91ed-47f2-9654-f85da53c01f8","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"11"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":182.0,"y":14.0},"guid":"70deb226-5ec9-4085-813b-9a55809edff1","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"14"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-56.0,"y":-126.0},"guid":"e914cade-a03d-4c96-984c-df8106737ba2","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"OptionButtons","$type":"System.String"},"object":null},"position":{"x":-436.0,"y":-126.0},"guid":"b45af28d-a27e-4352-bad6-e7acdfb501ff","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"19"},{"defaultValues":{"index":{"$content":0,"$type":"System.Int32"}},"position":{"x":-215.0,"y":-130.0},"guid":"ce0d659d-836f-43af-a2d0-5cb85d01dc46","$version":"A","$type":"Unity.VisualScripting.GetListItem","$id":"21"},{"defaultValues":{},"position":{"x":-424.0,"y":13.0},"guid":"bf49b468-ee58-4cbe-bf5b-0307446c3f8a","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"23"},{"defaultValues":{},"position":{"x":617.0,"y":-137.0},"guid":"f66e43a3-be2e-482a-b63a-bc1e8b11a4e4","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"25"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"Flow
+      Input","guid":"a495ea90-5c21-426b-bdb5-96a77dfb80ea","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Flow
+      Output","destinationUnit":{"$ref":"25"},"destinationKey":"Output","guid":"8b87b973-b263-4fa2-8c04-1f73692930ae","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"DialogueUI","destinationUnit":{"$ref":"11"},"destinationKey":"Bolt
+      Dialogue UI Ref","guid":"288b6240-675b-4d17-989c-bd297d070d68","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"item","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"40b08954-8757-40e5-aa3f-1e5eb960ccbd","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"list","guid":"f6e95440-4780-4c5f-9c19-a99d5820d5a8","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"Button
+      Index","destinationUnit":{"$ref":"21"},"destinationKey":"index","guid":"9c39b810-5886-4f4e-9098-00b26359b770","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"Button
+      Index","destinationUnit":{"$ref":"11"},"destinationKey":"Option Id","guid":"fc628979-435e-4369-b23f-a2e8cef1127c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 91f58e1af44cfaf40bcfa035dcd18ebe, type: 2}
+    - {fileID: 11400000, guid: 96d8d7b2a8ca60d4aa5d0a35da4c20fd, type: 2}
