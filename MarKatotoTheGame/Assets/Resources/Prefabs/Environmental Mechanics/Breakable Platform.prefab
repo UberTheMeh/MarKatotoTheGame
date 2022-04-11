@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5164007085760113413}
   - component: {fileID: 5164007085760113411}
   - component: {fileID: 5164007085760113410}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5164007085772333334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,8 @@ GameObject:
   - component: {fileID: 5164007086720315576}
   - component: {fileID: 5164007086720315579}
   - component: {fileID: 5164007086720315578}
-  m_Layer: 0
+  - component: {fileID: 1708369004}
+  m_Layer: 6
   m_Name: Breakable Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 5164007086720315581}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 13.85, y: 5.44, z: -5.18}
-  m_LocalScale: {x: 2.1579, y: 0.3086013, z: 2.1579}
+  m_LocalScale: {x: 6.3925633, y: 0.3086013, z: 2.1579}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5164007085772333334}
@@ -196,3 +197,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: e482fabb7603f044ca380aad67040666, type: 2}
+--- !u!54 &1708369004
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164007086720315581}
+  serializedVersion: 2
+  m_Mass: 10
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 1
