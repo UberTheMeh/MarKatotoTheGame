@@ -20,9 +20,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Decal Material
+  m_Name: Decal Star
   m_Shader: {fileID: 4800000, guid: 9bbe310957047664fac6f0b6cc881448, type: 3}
-  m_ShaderKeywords: _UnityFogEnable
+  m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _UnityFogEnable
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -61,7 +61,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 949867022a6319d4bb6b7d0e5957b750, type: 3}
+        m_Texture: {fileID: 2800000, guid: 12971c8fde2793a4fa1187ff8fe55251, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
