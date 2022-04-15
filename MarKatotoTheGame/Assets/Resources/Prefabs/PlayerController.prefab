@@ -166,6 +166,38 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &548988566801212231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2381608605946413168}
+  m_Layer: 0
+  m_Name: Ability
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2381608605946413168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548988566801212231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7648463434832307664}
+  m_Father: {fileID: 3935338094488940967}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1613818128535918832
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +377,7 @@ GameObject:
   - component: {fileID: 1917656966}
   - component: {fileID: 1917656967}
   m_Layer: 0
-  m_Name: InhaleTrigger
+  m_Name: Inhale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,15 +390,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807514702669313378}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0000022296, y: 0, z: -0.37785}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.37785}
   m_LocalScale: {x: 3.376522, y: 3.376522, z: 3.376522}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6945528421608847707}
   - {fileID: 6862507078999198292}
-  m_Father: {fileID: 3935338094488940967}
-  m_RootOrder: 3
+  m_Father: {fileID: 2381608605946413168}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &5455577416353852336
 SphereCollider:
@@ -5389,7 +5421,7 @@ Transform:
   - {fileID: 3935338096083949487}
   - {fileID: 1850406836664689696}
   - {fileID: 2872728183173391240}
-  - {fileID: 7648463434832307664}
+  - {fileID: 2381608605946413168}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
