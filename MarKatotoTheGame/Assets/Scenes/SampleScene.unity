@@ -1264,6 +1264,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3935338094488940967, guid: 72362c7a064f030439cb9a15edca2559, type: 3}
   m_PrefabInstance: {fileID: 3935338095566638979}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1272938144
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1036239922467786465, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"TrackPlayer","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ShootTimer","value":{"$content":3.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1036239922467786469, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
+      propertyPath: m_Name
+      value: Turret (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
 --- !u!1 &1317795428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2343,7 +2406,7 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Rotate","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Rotate","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RotationDelayTime","value":{"$content":1.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RotationSpeed","value":{"$content":100.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RotationAngle","value":{"$content":90.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -2498,7 +2561,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.58
+      value: -6.61
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2506,11 +2569,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -15.35
+      value: -13.51
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.0000029504295
+      value: 0.7071076
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2518,7 +2581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: 0.707106
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalRotation.z
@@ -2530,7 +2593,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1036239922467786467, guid: 5a48ee49542c24f4b82d9722753f118d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
