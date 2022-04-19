@@ -2054,7 +2054,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.17739104, y: 0.000000008466747, z: -0.0000000015261287, w: 0.98414046}
+  m_LocalRotation: {x: 0.17739104, y: -0.000000008466747, z: 0.0000000015261287, w: 0.98414046}
   m_LocalPosition: {x: -4.65, y: 2.97, z: -31.45}
   m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
   m_ConstrainProportionsScale: 0
@@ -3265,7 +3265,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3281,7 +3281,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1486019549}
-  m_LocalRotation: {x: 0.17739104, y: 0.000000008466747, z: -0.0000000015261287, w: 0.98414046}
+  m_LocalRotation: {x: 0.17739104, y: -0.000000008466747, z: 0.0000000015261287, w: 0.98414046}
   m_LocalPosition: {x: -4.65, y: 2.97, z: -31.45}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6019,18 +6019,6 @@ PrefabInstance:
     - target: {fileID: 3935338094488940959, guid: 72362c7a064f030439cb9a15edca2559, type: 3}
       propertyPath: m_Name
       value: PlayerController
-      objectReference: {fileID: 0}
-    - target: {fileID: 3935338094488940962, guid: 72362c7a064f030439cb9a15edca2559, type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3935338094488940962, guid: 72362c7a064f030439cb9a15edca2559, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 8cef5ed1447a8a24e9b1361118b5026b, type: 3}
-    - target: {fileID: 3935338094488940962, guid: 72362c7a064f030439cb9a15edca2559, type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 0.158
       objectReference: {fileID: 0}
     - target: {fileID: 3935338094488940967, guid: 72362c7a064f030439cb9a15edca2559, type: 3}
       propertyPath: m_RootOrder
